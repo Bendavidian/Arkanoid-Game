@@ -31,10 +31,32 @@ In this pattern, the 'LevelInformation' interface serves as a factory for genera
 * Press 'Space' to resume play.
 * Clear all the blocks and advance through the levels until you win, or lose and try again!
 
-## Installation and Execution
+## Install Apache Ant
 
+To compile and run this project, you need Apache Ant installed:
 
+1. **Download and Extract Apache Ant:**
+   - Download from the [Apache Ant website](https://ant.apache.org/).
+   - Extract it to a directory (e.g., `C:\apache-ant-1.10.13`).
 
+2. **Set Up Environment Variables:**
+   * Set `ANT_HOME` to the Ant directory (e.g., `C:\apache-ant-1.10.13`).
+   * Add `%ANT_HOME%\bin` to your `PATH` variable.
+
+3. **Verify Installation:**
+   * Run `ant -version` in Command Prompt to check if Ant is installed correctly.
+
+# Compile and Run the Game
+
+This project comes with a `build.xml` file for easy compilation and execution.
+
+## To compile the code, use the following Ant command:
+```bash
+ant compile
+To run the compiled code, use:
+ant run
+You can specify the sequence of levels to play by passing arguments to the ant run command like this:
+ant -Dargs="1 3 2 1 9 1 bla 3 3" run
 
 
 
