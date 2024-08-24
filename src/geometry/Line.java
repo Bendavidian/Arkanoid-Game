@@ -1,4 +1,4 @@
-// Ben Davidian - 206844045
+// Ben Davidian
 package geometry;
 
 import java.util.List;
