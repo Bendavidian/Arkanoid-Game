@@ -53,9 +53,9 @@ This project comes with a `build.xml` file for easy compilation and execution.
 ## To compile the code, use the following Ant command:
 ```bash
 ant compile
-To run the compiled code, use:
+# To run the compiled code, use:
 ant run
-You can specify the sequence of levels to play by passing arguments to the ant run command like this:
+# You can specify the sequence of levels to play by passing arguments to the ant run command like this:
 ant -Dargs="1 3 2 1 9 1 bla 3 3" run
 
 
